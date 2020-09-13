@@ -1,6 +1,6 @@
 Versiyon kontrol sistemidir
 
-Git GUI 	-> Graphic User Interface
+Git GUI 	->Graphic User Interface
 Git CMD 	->komut yazıyoruz
 Git Bash	->komut yazıyoruz
 
