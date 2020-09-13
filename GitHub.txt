@@ -1,0 +1,52 @@
+git yazılımı ile entegre olmuş depolama alanıdır
+git projelerini uzak bilgisayarda saklayıp yönetebileceğimiz bir yer
+proje insanlara açık hale getirilebilir
+
+GitHub repository'e çalışma dosyalarını göndermek
+
+git remote add burasıbanaaitbirisim https://github.com/Nuh-Aras/github-ogrenme.git
+git remote -> kontrol
+git push -u burasıbanaaitbirisim master ->bunu yazdıktan sonra kullanıcı adımızı ve şifremizi isteyecek
+
+gitignore -> git tarafından takip edilmesini istemediğimiz dosyaları koyduğumuz yer
+
+cat >> .gitignore
+icineekleyeceğimizdosyanınadı
+CTRL+C
+
+touch isim{1..6}.uzantı -> bu şekilde istenilen sayıda istenilen uzantıda dosya oluşturulabilir
+
+gedit .gitignore -> gitignore dosyasını açar
+
+klasöradı/* -> belirtilen klasör içindeki hiçbir şeyi takip etme demek
+!klasöradı/dosyaadi.uzantisi -> bu hariç diğerlerini takip etme demek
+
+Branches(Dallar)
+
+git pull -> github üzerinde oluşturduğumuz dosyaları çeker
+git branch -> mevcut dalları listeler
+git branch --all -> uzak bilgisayardaki dalları listeler
+git branch dalismi ->yeni bir dal oluşturmak için
+git checkout dalismi -> dal ismi seçmek
+git diff master dalismi ->iki dalı kıyaslıyor
+git merge dalismi ->master ile birleştirdi birleştirmek için önce masterda olmalıyız
+
+readme oluşturma
+# boyutlandırma ->bir veya altı diyez işareti kullanılır
+<br/> - boşluk bırakmak için
+'kod şeklinde yazmak' -> şu iki tırak yana yatık normalde github sayfasında var
+[Google Gider](http://www.google.com) - > link verme
+![resim açıklaması](resmin adresi)
+
+
+watch - > takip etmemizi sağlar
+star -> beğendik daha sonra incelemek için yer imi olarak ekler
+fork -> projenin kopyası hesabımıza gelir
+
+problemler
+ıssues
+
+awesome-ilgilendiğimizdilinadı
+
+gitlab ücretsiz private deposu oluşturmamı sağlayan farklı bir hizmet ancak diğer bütün işlemler github ile aynı
+
