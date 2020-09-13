@@ -6,28 +6,28 @@ Git Bash	->komut yazıyoruz
 
 Git Kullanıcı Oluşturma
 Birden fazla kişinin çalıştığı projede alınan versiyonların kim tarafından alındığını takip etmek için kullanıcı adı ve mail adresini tanımlarız.
-git config --global user.name "Nuh Aras"
-git config --global user.email "nuh.developer@gmail.com"
+git config --global user.name   "Nuh Aras"
+git config --global user.email  "nuh.developer@gmail.com"
 
 pwd 			->terminal üzerinde bulunduğumuz dizinin adresini verir
-ls 			->bulunduğumuz dizin içindeki dosyaları ve dizinleri listeler
-cd 			->dizin değiştirmek için kullanılır 
-cd gitmekistediğimizdizin	->cd yazıp sonrasında hangi dizine gitmek istediğimi belirtiyorum
-cd .. 			->bir önceki dizine gitmeyi sağlar
-clear 			->terminali temizler (Ctrl+L kısayoludur)
-git init 			->istediğimiz dizini git projesi haline getiriyoruz
-ls -a 			->gizli dosyaları ve dizinleri gösterir
-git add . 			->bulunduğum dizini git deposuna eklemek için geçiş bölüme alıyor
+ls 			  ->bulunduğumuz dizin içindeki dosyaları ve dizinleri listeler
+cd 			  ->dizin değiştirmek için kullanılır 
+cd gitmekistediğimizdizin	  ->cd yazıp sonrasında hangi dizine gitmek istediğimi belirtiyorum
+cd .. 			  ->bir önceki dizine gitmeyi sağlar
+clear 			  ->terminali temizler (Ctrl+L kısayoludur)
+git init      ->istediğimiz dizini git projesi haline getiriyoruz
+ls -a 			  ->gizli dosyaları ve dizinleri gösterir
+git add . 		->bulunduğum dizini git deposuna eklemek için geçiş bölüme alıyor
 git commit -m "buraya aldığımız versiyon için açıklayıcı bir şey yazarız" 	->geçiş bölümdekilerini depoya aktarır
-git log 			->depomuzu listeler
+git log 			  ->depomuzu listeler
 git status			->çalışma dizinimiz ile git depomuzu karşılaştırır ve değişiklikler varsa onları listeler
-git add 			->eklemek istediğim dosyanın adını ve uzantısı yazıp eklemede yapabilirim
-git diff 			->dosyada herhangi bir değişiklik yaptıysak bu değişikliği bize satır satır gösterir
+git add 			  ->eklemek istediğim dosyanın adını ve uzantısı yazıp eklemede yapabilirim
+git diff 			  ->dosyada herhangi bir değişiklik yaptıysak bu değişikliği bize satır satır gösterir
 git diff --staged 		->depo ile geçiş bölgesi arasındaki farklılıkları gösteriyor
-git rm 			->sildiğimiz dosyanın adını ve uzantısı yazarız
-git rm -r klasöradı/ 		->bu şekilde klasörü ve içindekileri sileriz
-git mv dosyanınadı.uzantısı yenisim.uzantı 			->dosyanın adını değiştirme
-git mv taşınacakdosyanınadı.uzantısı taşınacağıklasörünadı/ 	->dosya taşıma
+git rm 			          ->sildiğimiz dosyanın adını ve uzantısı yazarız
+git rm -r klasöradı/ 	->bu şekilde klasörü ve içindekileri sileriz
+git mv dosyanınadı.uzantısı yenisim.uzantı 			                  ->dosyanın adını değiştirme
+git mv taşınacakdosyanınadı.uzantısı taşınacağıklasörünadı/ 	    ->dosya taşıma
 git restore silinenveyadeğişiklikyaptığımızdosyanınadı.uzantısı 	->sildiğimiz dosyayı geri getirir ve dosya içinde sildiklerimizi de geri getirir
-git reset HEAD dosyanınadı.uzantısı 				->geçiş bölgesine gönderdiğimiz dosyayı geri alıyoruz
-git checkout üsttaraftaçıkanuzunkod -- . 			->istediğimiz versiyona dönüyoruz . yerine dosya adını ve uzantısını yazarsak o dosyanın istediğimiz versiyonunu alırız
+git reset HEAD dosyanınadı.uzantısı 				                      ->geçiş bölgesine gönderdiğimiz dosyayı geri alıyoruz
+git checkout üsttaraftaçıkanuzunkod -- . 			                    ->istediğimiz versiyona dönüyoruz . yerine dosya adını ve uzantısını yazarsak o dosyanın istediğimiz versiyonunu                                                                     alırız
